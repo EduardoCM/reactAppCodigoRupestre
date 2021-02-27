@@ -68,6 +68,24 @@ render() {
 
              <Grid item xs={12}>
                <TextField
+               label="Direccion"
+               variant="outlined"
+               required
+               type="text"
+                />
+          </Grid>
+
+          <Grid item xs={12}>
+            <TextField
+            label="Area Asignacion"
+            variant="outlined"
+            required
+            type="text"
+             />
+       </Grid>
+
+             <Grid item xs={12}>
+               <TextField
                label="Correo"
                variant="outlined"
                required

@@ -30,7 +30,7 @@ class RegistroUsuario extends Component {
       userName: this.state.userName
     }
 
-    axios.post('http://localhost:8280/api/v1/usuario', usuario)
+    axios.post('http://8f0c420f45dc.ngrok.io/api/v1/usuario', usuario)
        .then(res => {
           console.log(res);
           console.log(res.data);

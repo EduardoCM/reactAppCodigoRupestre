@@ -10,7 +10,7 @@ class Registros extends Component {
   }
 
   componentDidMount () {
-    fetch('http://localhost:8280/api/v1/usuario')
+    fetch('http://8f0c420f45dc.ngrok.io/api/v1/usuario')
         .then(res => res.json())
         .then(data => {
           this.setState({registros: data })

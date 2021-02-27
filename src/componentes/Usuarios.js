@@ -13,7 +13,7 @@ export default class Usuarios extends Component {
 
  componentDidMount() {
    console.log('Entra a componentdidmount');
-   axios.get('http://localhost:8280/api/v1/usuario')
+   axios.get('http://8f0c420f45dc.ngrok.io/api/v1/usuario')
     .then(res => {
       const usuario = res.data;
       this.setState({usuarios: usuario});
